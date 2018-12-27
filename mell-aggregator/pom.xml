@@ -6,7 +6,12 @@
 
   <groupId>com.mirsla</groupId>
   <artifactId>mell-aggregator</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <description>所有模块父模块，用户jar包等依赖管理</description>
+  <modules>
+    <module>mell-common</module>
+  </modules>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
